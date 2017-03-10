@@ -33,6 +33,21 @@
          将空气质量指数大于60的城市显示到aqi-list的列表中
          */
 
+//        第一种方法：使用内置的函数
+        function small(s) {
+            return s[1]<=60;
+        }
+        aqiData=aqiData.filter(small);  //filter函数过滤大于60的数组
+//        console.log(aqiData);
+
+        aqiData.sort(function (a,b) {   //对数组进行从小到大排序，a-b输出从小到大排列   b-a输出从大到小排列
+            return a[1]-b[1];
+        });
+//        console.log(aqiData);
+
+
+//        第二种方法
+
 //        冒泡排序aqiData
         for(var i=0;i<aqiData.length;i++){
             for(var j=i+1;j<aqiData.length;j++){
@@ -48,23 +63,14 @@
 
         var ul_val='';          //最终拼接好的字符串
         var chinese=['一','二','三','四','五','六','七','八','九','十'];  //定义数字转换成汉字的数组
-//        var _sort=0;        //排序
-
         $.each(aqiData,function (key1,value1) {
-            var li_val='<li>';
+
             if(value1[1]<60){
-//                li_val +='第'+chinese[_sort]+'名：';
-                li_val +='第'+chinese[key1]+'名：';
-                $.each(value1,function (key2,value2) {
-                    li_val +=value2+',';
-                });
-//                _sort++;
+                ul_val +='<li>'+'第'+chinese[key1]+'名：'+value1[0]+'，'+value1[1]+'</li>';
             }
-            li_val=li_val.substring(0,li_val.length-1); //去掉最后一个字符“,”
-            li_val +='</li>';
-            ul_val+=li_val;
 
         });
+
         $("#aqi-list").html(ul_val);
 //        console.log(ul_val);
     })();
