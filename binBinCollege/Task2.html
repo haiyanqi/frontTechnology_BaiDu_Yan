@@ -63,12 +63,10 @@
 
         var ul_val='';          //最终拼接好的字符串
         var chinese=['一','二','三','四','五','六','七','八','九','十'];  //定义数字转换成汉字的数组
-        $.each(aqiData,function (key1,value1) {
-
-            if(value1[1]<60){
-                ul_val +='<li>'+'第'+chinese[key1]+'名：'+value1[0]+'，'+value1[1]+'</li>';
+        $.each(aqiData,function (key,value) {
+            if(value[1]<60){
+                ul_val +='<li>'+'第'+chinese[key]+'名：'+value[0]+'，'+value[1]+'</li>';
             }
-
         });
 
         $("#aqi-list").html(ul_val);
