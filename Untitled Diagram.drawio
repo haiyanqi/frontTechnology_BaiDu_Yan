@@ -1,11 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2020-12-24T09:40:23.969Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="zAmqHK6vpeXMc2BFF768" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-24T09:40:44.247Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="xy_Xxb6bD0B6J2Ks6-yq" version="14.1.2" type="github">
   <diagram id="_S4IX8tKz0L9J5fmnnkv" name="Page-1">
     <mxGraphModel dx="1422" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="cGwsYhjdhrMvAT7uXr-K-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="cGwsYhjdhrMvAT7uXr-K-2" value="&lt;h1&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;V课程（大包）&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;v大包id&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="90" y="140" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cGwsYhjdhrMvAT7uXr-K-3" value="&lt;h1&gt;Saas课程&lt;/h1&gt;&lt;p&gt;单个&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="140" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cGwsYhjdhrMvAT7uXr-K-4" value="&lt;h1&gt;阶段&lt;/h1&gt;&lt;p&gt;多个阶段&lt;/p&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="350" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cGwsYhjdhrMvAT7uXr-K-5" value="&lt;h1&gt;班级/大纲&lt;/h1&gt;&lt;p&gt;一个班级对应一个大纲&lt;/p&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="570" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cGwsYhjdhrMvAT7uXr-K-6" value="&lt;h1&gt;权限&lt;/h1&gt;&lt;p&gt;查询学员在哪个班&lt;/p&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="350" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cGwsYhjdhrMvAT7uXr-K-7" value="&lt;h1&gt;资源包&lt;/h1&gt;&lt;p&gt;一个大纲下所有资源包&lt;/p&gt;" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="800" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cGwsYhjdhrMvAT7uXr-K-8" value="&lt;h1&gt;单个资源包&lt;/h1&gt;&lt;p&gt;单个资源包&lt;/p&gt;" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="800" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cGwsYhjdhrMvAT7uXr-K-9" value="&lt;span&gt;清缓存&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="160" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
