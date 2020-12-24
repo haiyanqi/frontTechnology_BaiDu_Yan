@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-24T10:05:43.607Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="vFiG0u6-XLTWXVWKHEIW" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-24T10:09:08.103Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="Up-J4r6B1WsYFAwcOg5q" version="14.1.2" type="github">
   <diagram id="_S4IX8tKz0L9J5fmnnkv" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,13 +79,13 @@
         <mxCell id="cGwsYhjdhrMvAT7uXr-K-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cGwsYhjdhrMvAT7uXr-K-28" target="cGwsYhjdhrMvAT7uXr-K-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cGwsYhjdhrMvAT7uXr-K-28" value="修改" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="cGwsYhjdhrMvAT7uXr-K-28" value="进班" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="890" y="830.5" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cGwsYhjdhrMvAT7uXr-K-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cGwsYhjdhrMvAT7uXr-K-30" target="cGwsYhjdhrMvAT7uXr-K-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cGwsYhjdhrMvAT7uXr-K-30" value="删除" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="cGwsYhjdhrMvAT7uXr-K-30" value="退班" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="890" y="889.5" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cGwsYhjdhrMvAT7uXr-K-31" value="&lt;span&gt;清缓存&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
@@ -94,14 +94,26 @@
         <mxCell id="cGwsYhjdhrMvAT7uXr-K-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cGwsYhjdhrMvAT7uXr-K-33" target="cGwsYhjdhrMvAT7uXr-K-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cGwsYhjdhrMvAT7uXr-K-33" value="修改" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="890" y="1161" width="70" height="20" as="geometry" />
+        <mxCell id="cGwsYhjdhrMvAT7uXr-K-33" value="新增课中资源" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1161" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cGwsYhjdhrMvAT7uXr-K-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cGwsYhjdhrMvAT7uXr-K-35" target="cGwsYhjdhrMvAT7uXr-K-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cGwsYhjdhrMvAT7uXr-K-35" value="删除" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="890" y="1220" width="70" height="20" as="geometry" />
+        <mxCell id="cGwsYhjdhrMvAT7uXr-K-35" value="删除课中资源" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1220" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cGwsYhjdhrMvAT7uXr-K-36" value="新增资源" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1270" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cGwsYhjdhrMvAT7uXr-K-37" value="删除资源" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1320" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cGwsYhjdhrMvAT7uXr-K-38" value="换资源" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1370" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cGwsYhjdhrMvAT7uXr-K-39" value="资源排序" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1420" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
